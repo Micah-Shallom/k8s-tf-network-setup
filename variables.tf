@@ -11,3 +11,12 @@ variable "vpc_cidr" {
 variable "subnet_cidr" {
     type = string
 }
+variable "instance_type" {
+    type = string
+}
+variable "key_name" {
+    type = string
+}
+variable "ami" {
+    type = string
+}
