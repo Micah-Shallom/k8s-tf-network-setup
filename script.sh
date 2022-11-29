@@ -1,3 +1,4 @@
+#!/bin/bash
 export IMAGE_ID = terraform output IMAGE_ID
 export INTERNET_GATEWAY_ID = terraform output INTERNET_GATEWAY_ID
 export KUBERNETES_PUBLIC_ADDRESS = terraform output KUBERNETES_PUBLIC_ADDRESS
